@@ -42,8 +42,8 @@ public class HiberEuro2012 {
             throw e;
 	}
 
-//     GolDaoImpl e = new GolDaoImpl(sessionFactory);
-//    e.BuscarPorPais("ESP");
+        GolDaoImpl e = new GolDaoImpl(sessionFactory);
+        e.BuscarPorPais("ESP");
 
 //        System.out.println(goles);
 

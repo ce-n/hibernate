@@ -24,3 +24,4 @@
     <mapping resource="resources/hbm/Factura.hbm.xml"/>-->
   </session-factory>
 </hibernate-configuration>
+
