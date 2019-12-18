@@ -42,10 +42,15 @@ public class HiberEuro2012 {
             throw e;
 	}
 
-        GolDaoImpl e = new GolDaoImpl(sessionFactory);
-        e.BuscarPorPais("ESP");
+//     GolDaoImpl e = new GolDaoImpl(sessionFactory);
+//    e.BuscarPorPais("ESP");
 
 //        System.out.println(goles);
+
+        GameDaoImpl game = new GameDaoImpl(sessionFactory);
+        game.BuscarEquipoDos("POR");
+        System.out.println("Fecha partido");
+        game.BuscarFechaPartido("POL", "GRE");
 
         System.exit(0);
     }

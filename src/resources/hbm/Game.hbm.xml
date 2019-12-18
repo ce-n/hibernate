@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="hibereuro2012.Game" table="game">
+      <id name="id" column="id">
+      </id>
+      <property name="fecha_partido" column="mdate" />
+      <property name="estadio" column="stadium" />
+      <property name="equipo_uno" column="team1" />
+      <property name="equipo_dos" column="team2" />
+  </class>
+</hibernate-mapping>
+

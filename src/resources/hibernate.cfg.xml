@@ -4,16 +4,17 @@
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/euro2012?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.url">jdbc:mysql://172.18.0.91:3306/euro2012?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">111mil</property>
-    <property name="hibernate.connection.password"></property>
+    <property name="hibernate.connection.password">111mil</property>
     <property name="hibernate.show_sql">true</property>
     <property name="hibernate.connection.autocommit">true</property>
     <property name="hibernate.connection.pool_size">1</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.current_session_context_class">thread</property>
     <mapping resource="resources/hbm/Gol.hbm.xml"/>
-<!--    <mapping resource="resources/hbm/VariedadPizza.hbm.xml"/>
+    <mapping resource="resources/hbm/Game.hbm.xml"/>
+    <!--    <mapping resource="resources/hbm/VariedadPizza.hbm.xml"/>
     <mapping resource="resources/hbm/TamanioPizza.hbm.xml"/>
     <mapping resource="resources/hbm/Pizza.hbm.xml"/>
     <mapping resource="resources/hbm/EstadoPedido.hbm.xml"/>
@@ -23,4 +24,3 @@
     <mapping resource="resources/hbm/Factura.hbm.xml"/>-->
   </session-factory>
 </hibernate-configuration>
-
